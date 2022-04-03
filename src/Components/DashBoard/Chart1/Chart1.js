@@ -1,0 +1,35 @@
+import React from "react";
+import {
+  Bar,
+  BarChart,
+  CartesianGrid,
+  Legend,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from "recharts";
+import useChart from "../../hooks/chart";
+
+const Chart1 = () => {
+  const [data, setData] = useChart();
+  return (
+    <div>
+      <BarChart width={450} height={400} data={data} barSize={20}>
+        <XAxis dataKey="month" />
+        <YAxis />
+        <Tooltip />
+        <Legend />
+        <CartesianGrid strokeDasharray="3 3" />
+        <Bar dataKey={"revenue"} fill="#8884d8" background={{ fill: "#eee" }} />
+        <Bar
+          dataKey={"investment"}
+          fill="#800080"
+          background={{ fill: "#eee" }}
+        />
+        <Bar dataKey={"sell"} fill="#0000FF" background={{ fill: "#eee" }} />
+      </BarChart>
+    </div>
+  );
+};
+
+export default Chart1;
