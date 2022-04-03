@@ -8,7 +8,7 @@ const Home = () => {
   const threeReviews = reviews?.slice(0, 3);
   return (
     <>
-      <div className="grid md:grid-cols-5 gap-4 mx-5 flex-col mt-8">
+      <div className="grid md:grid-cols-5 gap-4 mx-5 flex-col mt-8 mb-8">
         <div className="col-span-3 my-auto">
           <h1 className="md:text-6xl text-5xl font-extrabold font-sens">
             Your Next Phone
@@ -41,11 +41,11 @@ const Home = () => {
       </div>
       <h1
         style={{ borderBottom: "3px solid purple" }}
-        className="text-5xl font-sans font-bold text-purple-600 mt-8 inline mb-8"
+        className="text-5xl font-sans font-bold text-purple-600 inline"
       >
         Customer Reviews
       </h1>
-      <div className="md:mx-20 grid grid-cols-3 gap-4">
+      <div className="md:mx-20 grid grid-cols-3 gap-4 mt-8">
         {threeReviews?.map((comment) => (
           <DefaultReviews key={comment._id} comment={comment}></DefaultReviews>
         ))}
