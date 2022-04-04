@@ -13,14 +13,14 @@
       "name": "Tillman Hart",
       "email": "tillmanhart@furnafix.com",
       "article": "hello react how are you",
-      "title": "What is s"
+      "title": "what is symanthic"
     },
     {
       "_id": "624ac19dc2b18d2c02d06a3a",
       "balance": "$1,786.75",
       "name": "Fay Christian",
       "email": "faychristian@furnafix.com",
-      "article": "Hello javascript",
+      "article": "This is The major difference between block and inline element. Inline elements: Inline elements occupy only enough width that is sufficient. he is allows other elements next to it which are inline. Inline elements don’t start from a new line he started same line. and don’t have top and bottom margins as like block elements have. Block elements: They consume the entire width available irrespective of their sufficiency. block element always start in a new line and they have margin top and bottom. block element always create a new line",
       "title": "What is difference between inline and block element?"
     }
   ]

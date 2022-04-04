@@ -21,7 +21,7 @@ const Blog = ({ blog }) => {
                   <div className="aspect-w-3 aspect-h-2">
                     <img
                       className="object-cover shadow-lg rounded-lg group-hover:opacity-75"
-                      src="pc.webp"
+                      src="download.jpg"
                       alt="blog img"
                       style={{ cursor: "auto" }}
                     />
