@@ -14,6 +14,9 @@ const Chart1 = () => {
   const [data, setData] = useChart();
   return (
     <div>
+      <h1 className="text-3xl text-purple-700 font-sans font-bold my-6">
+        Bar Chart
+      </h1>
       <BarChart width={450} height={400} data={data} barSize={20}>
         <XAxis dataKey="month" />
         <YAxis />
