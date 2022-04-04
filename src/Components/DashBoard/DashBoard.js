@@ -6,8 +6,8 @@ import Chart4 from "./Chart4/Chart4";
 
 const DashBoard = () => {
   return (
-    <div className="">
-      <div className="grid grid-cols-2 w-4/5 mx-auto">
+    <div>
+      <div className="grid md:grid-cols-2 w-4/5 mx-auto gap-6 mt-4 grid-cols-1">
         <Chart1></Chart1>
         <Chart2></Chart2>
         <Chart3></Chart3>
