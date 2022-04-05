@@ -19,7 +19,7 @@ const Chart1 = () => {
     <Slide left>
       <div className="shadow-lg p-3 rounded-md">
         <h1 className="text-3xl text-purple-700 font-sans font-bold my-6">
-          Bar Chart
+          Investment VS Revenue
         </h1>
         <ResponsiveContainer width="100%" height={400}>
           <BarChart width={450} height={400} data={data} barSize={20}>

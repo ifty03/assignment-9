@@ -1,13 +1,6 @@
 import React from "react";
 import { Slide } from "react-reveal";
-import {
-  Pie,
-  PieChart,
-  ResponsiveContainer,
-  Tooltip,
-  XAxis,
-  YAxis,
-} from "recharts";
+import { Pie, PieChart, ResponsiveContainer, Tooltip } from "recharts";
 import useChart from "../../hooks/chart";
 
 const Chart4 = () => {
@@ -16,7 +9,7 @@ const Chart4 = () => {
     <Slide right>
       <div className="shadow-lg p-3 rounded-md">
         <h1 className="text-3xl text-purple-700 font-sans font-bold my-6">
-          Pie Chart
+          Investment VS Revenue
         </h1>
         <ResponsiveContainer width="100%" height={350}>
           <PieChart>
