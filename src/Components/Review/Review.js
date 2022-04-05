@@ -3,6 +3,7 @@ import DefaultReviews from "../DefaultReviews/DefaultReviews";
 import useReview from "../hooks/hooks";
 
 const Review = () => {
+  /* call custom hook */
   const [reviews, setReviews] = useReview();
   return (
     <>

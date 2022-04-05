@@ -7,7 +7,7 @@ const Blog = ({ blog }) => {
   return (
     <Slide left>
       <div>
-        <div className="container mx-auto px-20">
+        <div className="container mx-auto md:px-20 px-2">
           <div
             className="shadow-xl rounded-md"
             style={{ backgroundColor: "rgb(245 245 245)" }}
@@ -49,7 +49,7 @@ const Blog = ({ blog }) => {
                       >
                         <circle cx="4" cy="4" r="3"></circle>
                       </svg>
-                      Tag #1
+                      context-api #1
                     </span>
 
                     <span
@@ -63,7 +63,7 @@ const Blog = ({ blog }) => {
                       >
                         <circle cx="4" cy="4" r="3"></circle>
                       </svg>
-                      Tag #2
+                      Inline & block #2
                     </span>
 
                     <span
@@ -77,7 +77,7 @@ const Blog = ({ blog }) => {
                       >
                         <circle cx="4" cy="4" r="3"></circle>
                       </svg>
-                      Tag #3
+                      Semantic #3
                     </span>
                   </div>
                 </div>

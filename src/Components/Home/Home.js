@@ -13,16 +13,16 @@ const Home = () => {
         <Slide left>
           <div className="col-span-3 my-auto">
             <h1 className="md:text-6xl text-5xl font-extrabold font-sens">
-              Your Next Phone
+              Your Are Slow
             </h1>
             <h1 className="lg:text-6xl text-5xl font-extrabold font-sens text-purple-700">
-              Your Best Phone
+              Your Pc is Pro
             </h1>
             <p className="font-sens text-xl mt-7">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-              dolore obcaecati est, nesciunt modi optio reprehenderit provident?
-              Laudantium exercitationem autem quidem iste enim totam eaque
-              dicta, inventore officiis,
+              Advantages of PC gaming. PCs have different advantages, including
+              the ability to customize your PC, create hotkeys, sharper and more
+              lifelike visuals, superior accuracy with peripherals, and greater
+              ability to modify games.
             </p>
             {/* button */}
             <button
@@ -34,7 +34,7 @@ const Home = () => {
 
               <span className="absolute bottom-0 left-0 hidden w-10 h-20 transition-all duration-100 ease-out transform -translate-x-8 translate-y-10 bg-purple-600 -rotate-12"></span>
               <span className="absolute bottom-0 right-0 hidden w-10 h-20 transition-all duration-100 ease-out transform translate-x-10 translate-y-8 bg-purple-400 -rotate-12"></span>
-              <span className="relative">Live Demo</span>
+              <span className="relative">Get Started</span>
             </button>
           </div>
         </Slide>
@@ -44,10 +44,7 @@ const Home = () => {
           </div>
         </Slide>
       </div>
-      <h1
-        style={{ borderBottom: "3px solid purple" }}
-        className="text-5xl font-sans font-bold text-purple-600 inline"
-      >
+      <h1 className="text-5xl font-sans font-bold text-purple-600 inline">
         Customer Reviews
       </h1>
       <div className="md:mx-20 grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-4 mt-8">

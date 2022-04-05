@@ -7,7 +7,7 @@ const DefaultReviews = ({ comment }) => {
   const { address, ratting, email, name, phone, picture, review } = comment;
   return (
     <Roll left>
-      <div className="w-96 bg-gray-100 mt-4 p-7 rounded-lg shadow-xl mx-auto">
+      <div className="w-96 bg-gray-100 mt-4 p-7 rounded-lg shadow-xl mx-auto border-4 border-t-purple-700">
         <img className="mx-auto rounded-full" src={picture} alt="" />
         <RubberBand>
           <h1 className="text-xl font-bold font-mono mt-3">{name}</h1>
