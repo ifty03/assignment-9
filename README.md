@@ -1,6 +1,6 @@
 # Computer Mart
 
-## Project link is here [https://courageous-paprenjak-b4c447.netlify.app/](https://github.com/facebook/create-react-app).
+## Project link is here [https://courageous-paprenjak-b4c447.netlify.app/](https://courageous-paprenjak-b4c447.netlify.app/).
 
 ## About This project
 
