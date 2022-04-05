@@ -4,4 +4,5 @@
 
 ## About This project
 
-- This project name is Computer mart
+- This project name is Computer mart.
+  Used in this project 1.React 2.tailwindcss 3.recharts 4.js 5.JSX 6.css 7.HTML 8.React-route etc.
