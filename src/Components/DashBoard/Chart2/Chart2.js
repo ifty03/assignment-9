@@ -18,7 +18,7 @@ const Chart2 = () => {
     <Slide top>
       <div className="shadow-lg p-3 rounded-md">
         <h1 className="text-3xl text-purple-700 font-sans font-bold my-6">
-          Area Chart
+          Investment VS Revenue
         </h1>
         <ResponsiveContainer width="100%" height={380}>
           <AreaChart width={450} height={380} data={data} barSize={20}>

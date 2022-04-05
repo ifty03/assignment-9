@@ -18,7 +18,7 @@ const Chart3 = () => {
     <Slide bottom>
       <div className="shadow-lg p-3 rounded-md">
         <h1 className="text-3xl text-purple-700 font-sans font-bold my-6">
-          Line Chart
+          Investment VS Revenue
         </h1>
         <ResponsiveContainer height={400} width="100%">
           <LineChart
