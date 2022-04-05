@@ -4,4 +4,4 @@
 
 ## About This project
 
-**This project name is Computer mart**
+- This project name is Computer mart
